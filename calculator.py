@@ -5,7 +5,7 @@ class Calculator:
     def __init__(self, master):
         self.master = master
         master.title("Python Calculator")
-        self.screen = Text(master, state='disabled', width=30, height=4, background="black", foreground="white")
+        self.screen = Text(master, state='disabled', width=30, height=4, background="white", foreground="black")
         self.screen.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
         self.screen.configure(state='normal')
         self.equation=''
@@ -20,7 +20,7 @@ class Calculator:
         b9 = self.createButton(1)
         b10 = self.createButton(2)
         b11 = self.createButton(3)
-        b12 = self.createButton(u"\u00D7")
+        b12 = self.createButton(u"\u002A")
         b13 = self.createButton('.')
         b14 = self.createButton(0)
         b15 = self.createButton('+')
