@@ -1,2 +1,7 @@
-# basic-python-calculator
-A Basic GUI Python Calculator.
+# Basic-Python-Calculator
+A Basic GUI Python Calculator.:blush:
+# How to use
+* Install python in your system
+* Clone or Download this Repository
+* Type `cd <path_to_clonned_repository>`
+* Type `python calculator.py`
